@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>data visualization experiment 1</title>
-</head>
-<body>
-<script src="./package/dist/d3.min.js" charset="utf-8"></script>
-<script src="./bars.js" charset="UTF-8"></script>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>exp1</title>
+    <link rel="stylesheet" href="./css/app.css"/>
+    <script src="./package/dist/d3.min.js" charset="utf-8"></script>
+    <style>
+      #content {
+        width: 50%;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .box {
+        width: 100%;
+        max-width: 700px;
+        margin: 2em 0;
+      }
+
+      #logo {
+        color: #ebebd3;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-left: 25%;
+      }
+
+      @media (max-width: 700px) {
+        #logo {
+          margin-left: 10%;
+        }
+
+        #content {
+          width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <span class="thinkcss-left" id="logo">Data Visualization Experiment 1</span>
+      <span class="thincss-right" id="logo">LiYang SDU</span>
+    </header>
+    <div id="content">
+      <h1>实验内容</h1>
+      <p>基于至少3种不同的方法把数据（titanic_disaster.csv）可视化出来。</p>
+      <section class="bar_chart">
+        <h2>Bar Chart</h2>
+      </section>
+      <section class="parallel_set">
+        <h2>Parallel Set</h2>
+      </section>
+      <section>
+        <h2>Scatter Matrix</h2>
+      </section>
+      <section>
+        <h2>Star Plot</h2>
+      </section>
+    </div>
+  </body>
+  <script src="./js/bars.js" charset="UTF-8"></script>
 </html>
