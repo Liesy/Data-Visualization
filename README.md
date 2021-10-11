@@ -22,3 +22,8 @@
 
 1. [Monthly Hours of Sunshine in Major U.S. Cities](https://courses.cs.washington.edu/courses/cse412/21wi/a1.html)
 2. 熟悉d3中的log scale 与tick mark 生成
+
+#### Experiment 3 (2021.10.4 -- 2021.10.18)
+
+1. 体验 [Embedding Projector](https://projector.tensorflow.org/)
+2. 使用 [Matlab Toolbox for Dimensionality Reduction](https://lvdmaaten.github.io/drtoolbox/) 比较t-sne, pca, isomap等方法的区别
